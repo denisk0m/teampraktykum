@@ -1,11 +1,12 @@
 import "./App.css";
 import Header from "./components/Header";
-import Body from "./components/Body";
+import Body from "./components/Body"
 
 function App() {
   return (
     <div className="App">
       <Header />
+          <Body imgSrc="./PXL_20240808_122628861.jpg" name={"Mariana Huchko"} position={"Web Analyst"} />
           <Body imgSrc="./AndrewPhoto.jpg" name={"Andrew Hudyma"} position={"Technical Consultant   "} />
           <Body imgSrc="./photo_5318989376446916886_y.jpg" name={"Marta Zastrizhna"} position={"UI/UX Designer"} />
           <Body imgSrc = "./max-denysiuk.jpg" name={"Max Denysiuk"} position = {"QA"}/>
