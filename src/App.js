@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
+          <Body imgSrc="./AndrewPhoto.jpg" name={"Andrew Hudyma"} position={"Technical Consultant   "} />
     </div>
   );
 }
