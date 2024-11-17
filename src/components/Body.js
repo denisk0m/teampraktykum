@@ -2,7 +2,7 @@ import React from "react";
 
 const Body = (props) => {
   return (
-      <main style={styles.body}>
+    <main style={styles.body}>
         <div style={styles.card}>
           <img src={props.imgSrc} alt={props.name} style={styles.photo} />
           <div style={styles.textContainer}>
