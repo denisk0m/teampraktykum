@@ -14,6 +14,7 @@ const Body = (props) => {
     );
 };
 
+
 const styles = {
   body: {
     display: "flex",
