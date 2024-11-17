@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Body imgSrc = "./max-denysiuk.jpg" name={"Max Denysiuk"} position = {"QA"}/>
+          <Body imgSrc="./photo_5318989376446916886_y.jpg" name={"Marta Zastrizhna"} position={"UI/UX Designer"} />
+          <Body imgSrc = "./max-denysiuk.jpg" name={"Max Denysiuk"} position = {"QA"}/>
     </div>
   );
 }
