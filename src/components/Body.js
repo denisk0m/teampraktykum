@@ -1,16 +1,16 @@
 import React from "react";
 
-const Body = () => {
+const Body = (props) => {
   return (
-    <main style={styles.body}>
-      <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
+      <main style={styles.body}>
+        <div style={styles.card}>
+          <img src={props.imgSrc} alt={props.name} style={styles.photo} />
+          <div style={styles.textContainer}>
+            <h2 style={styles.name}>{props.name}</h2>
+            <p style={styles.position}>{props.position}</p>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
   );
 };
 
