@@ -1,18 +1,19 @@
 import React from "react";
 
 const Body = (props) => {
-  return (
-    <main style={styles.body}>
-      <div style={styles.card}>
-        <img src={props.imgSrc} alt={props.name} style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>{props.name}</h2>
-          <p style={styles.position}>{props.position}</p>
-        </div>
-      </div>
-    </main>
-  );
+    return (
+        <main style={styles.body}>
+            <div style={styles.card}>
+                <img src={props.imgSrc} alt={props.name} style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>{props.name}</h2>
+                    <p style={styles.position}>{props.position}</p>
+                </div>
+            </div>
+        </main>
+    );
 };
+
 
 const styles = {
   body: {
