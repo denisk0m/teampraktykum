@@ -12,8 +12,14 @@ function App() {
             <Body imgSrc="./photo_5318989376446916886_y.jpg" name={"Marta Zastrizhna"} position={"UI/UX Designer"}/>
             <Body imgSrc="./max-denysiuk.jpg" name={"Max Denysiuk"} position={"QA"}/>
             </div>
+            <img src={"./in_case.png"} alt={"GIT"} style = {photoStyle}/>
         </>
     );
 }
 
+
+const photoStyle = {
+    marginLeft: "40vw",
+    objectFit: "cover",
+}
 export default App;
